@@ -1,0 +1,20 @@
+-------LR(0)---------
+Alfabeto [P, (, )]
+Estado inicial [P => •ε, P => •(P)P, S => •P$]
+Conjutos de estados de aceptacion []
+Conjunto de Estados [[P => •ε, P => •(P)P, S => •P$], [S => P•$], [P => •ε, P => (•P)P, P => •(P)P], [P => (P•)P], [P => (P)•P, P => •ε, P => •(P)P], [P => (P)P•]]
+Conjunto de transiciones: 
+([P => •ε, P => •(P)P, S => •P$]-P-[S => P•$])
+([P => •ε, P => •(P)P, S => •P$]-(-[P => •ε, P => (•P)P, P => •(P)P])
+([P => •ε, P => (•P)P, P => •(P)P]-P-[P => (P•)P])
+([P => •ε, P => (•P)P, P => •(P)P]-(-[P => •ε, P => (•P)P, P => •(P)P])
+([P => (P•)P]-)-[P => (P)•P, P => •ε, P => •(P)P])
+([P => (P)•P, P => •ε, P => •(P)P]-P-[P => (P)P•])
+([P => (P)•P, P => •ε, P => •(P)P]-(-[P => •ε, P => (•P)P, P => •(P)P])
+
+Lenguaje r: null
+Cadena w ingresada: null
+Resultado: null
+
+Tiempo Creación: 0.0 ns
+Tiempo Simulacion: 0.0 ns
