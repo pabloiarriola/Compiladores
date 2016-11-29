@@ -18,7 +18,7 @@ public interface RegexConstants {
     public final char charOr = "∫";
     public final char charInt = "Ω";
     public final String EPSILON = "ε";
-	public final char charPlus = "∩";
+	public final char charPlus = '∩';
 	public final char charConcat =  "∆";
     public final char EPSILON_CHAR = EPSILON.charAt(0);
     
